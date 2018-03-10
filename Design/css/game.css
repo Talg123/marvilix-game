@@ -1,0 +1,46 @@
+body {
+	background-color: #EDEDED;
+}
+h1{
+	text-align: center;
+	color: #00004d ;
+}
+h3{
+	text-align:center;
+	color: #808080;
+}
+h2{
+	padding-top:100px;
+	text-align:center;
+	color: #808080;
+	visibility: hidden;
+}
+
+button {
+	border: none;
+	background-color: inherit;
+}
+span{
+	border-collapse: collapse;
+	border:1px solid gray;
+	background-color:lightgray;
+	font-size: 1.5em;
+}
+
+table{
+	border-collapse: collapse;
+	margin: auto;
+	border: 1px solid #0040ff;
+	visibility: hidden;
+}
+table th {
+	font-weight: bold;
+	border:1px solid #0040ff;
+	background-color: #808080;
+	color:white;
+	width:100px;
+}
+table td {
+	text-align:center;
+	border: 1px solid #0040ff;
+}

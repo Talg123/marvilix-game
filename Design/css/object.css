@@ -1,0 +1,56 @@
+#pointer {
+	position: absolute;
+	top:39%;
+	right: 48.5%;
+	transform-origin: bottom;
+}
+.animate {
+	animation: rotate 60s infinite linear;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+#circle {
+	padding-top:20px;
+	top:40px;
+	position: relative;
+	background-image: url("../images/circle.PNG");
+	height: 542px;
+	width: 562px;
+	margin: auto;
+}
+#watch {
+	position: absolute;
+	background-image: url("../images/stop_watch.png");
+	height:328px;
+	width:259px;
+	top: 100px;
+	right: 150px;
+}
+#lamp {
+	position:absolute;
+	background-image: url("../images/lamp.png");
+	height:115px;
+	width:124px;
+	top:-50px;
+	right:225px;
+}
+#vitro {
+	position:absolute;
+	background-image: url("../images/vitro.png");
+	height:115px;
+	width:124px;
+	top:225px;
+	right:-50px;
+}
+#rocket {
+	position:absolute;
+	background-image: url("../images/rocket.png");
+	height:115px;
+	width:124px;
+	top:225px;
+	left:-50px;
+}

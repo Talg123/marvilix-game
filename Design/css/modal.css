@@ -1,0 +1,34 @@
+.set{
+	text-align:center;
+	visibility: hidden;
+	padding:10px;
+}
+#close {
+	position:fixed;
+	z-index:2;
+	top:0;
+	left:30%;
+	
+}
+#content {
+	position:fixed;
+	width: 100%;
+	height:100%;
+	z-index:1;
+	top:0;
+	left:0;
+	background-color: rgba(0,0,0,0.4);
+}
+#graphShow {
+	display:none;
+	position:absolute;
+	top:30%;
+	right:30%;
+	width: 600px;
+	height:600px;
+}
+#graph {
+	margin: auto;
+	width: 500px;
+	height:500px;
+}
